@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './Skills.css';
 import git from '../assets/github.png'
 import image1 from '../assets/Screenshot 2024-02-01 222356.png'
