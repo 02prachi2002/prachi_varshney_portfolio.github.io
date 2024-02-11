@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+.abtpage{
+    position:relative;
+    display:block;
+    margin: 0 auto;
+}
+.abtpage::before{
+    content:"";
+    background-image: url("../assets/aboutbg.png");
+    background-size: cover;
+    opacity:0.3;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+}
+.abtsection{
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 5rem;
+}
+.parasection{
+    width: 38rem;
+    color: black;
+    text-align: justify;
+    font-family: "Merriweather Sans";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.heading{
+    /* margin-top: 0 auto; */
+    color: #585858;
+    margin-bottom: 2rem;
+text-align: left;
+font-family: "Maven Pro";
+font-size: 6rem;
+font-weight: 400;
+opacity: 60%;
+
+
+}
+
+.myimg{
+    width: 25rem;
+    margin-top: 5%;
+}
+@media screen and  (max-width: 1170px) {
+    .abtsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .parasection{
+        width: 80vw;
+        font-size: 1.4rem;
+    }
+  .myimg{
+      width: 25rem;
+  }
+  }
+  @media screen and  (max-width: 500px) {
+    .abtsection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .parasection{
+        width: 80vw;
+        font-size: 1rem;
+    }
+  .myimg{
+      width: 20rem;
+  }
+  .heading{
+    font-size: 4rem;
+  }
+  }

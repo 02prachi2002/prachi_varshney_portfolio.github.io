@@ -1,0 +1,59 @@
+.teachstacksection{
+    position:relative;
+    display:block;
+    /* margin: 0 auto; */
+    width: 100vw;
+    margin-top: -4rem;
+    padding: 0.5rem;
+}
+.teachstacksection::before{
+    content:"";
+    background-image: url("../assets/techstackbg.png");
+    background-size: cover;
+    opacity:0.4;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100vw;
+    height:auto;
+    z-index:-3;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+.techheading{
+    color: #2323238b;
+    margin-bottom: 2rem;
+text-align: center;
+font-family: "Maven Pro";
+font-size: 5rem;
+font-weight: 400;
+}
+.logomain{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center; 
+   
+}
+
+.logomain img{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem;
+    filter: grayscale(100%);
+}
+.logomain img:hover{
+    filter: grayscale(0%);
+    transition: all;
+    transition-duration: 300ms;
+}
+@media screen and  (max-width: 550px) {
+  
+.techheading{
+    font-size: 3.5rem;
+    margin-top: 10%;
+}
+  }

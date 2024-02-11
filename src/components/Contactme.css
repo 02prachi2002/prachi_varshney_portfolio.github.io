@@ -1,0 +1,123 @@
+.contactme{
+    background-color: #002600;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+.ch1{
+ text-align: left;
+ font-family: "Maven Pro";
+font-size: 4.5rem;
+font-weight: 400;
+color: #ffda48;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+
+.contactbtn{
+  font-family: 'Angkor', serif;
+font-family: 'Martel Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #426342;
+  cursor: pointer;
+}
+
+
+.contactbtn {
+  background-color: #FC0;
+  width: fit-content;
+  color: black;
+  padding: 0.8rem 2.3rem;
+  box-shadow: 5px 5px 7px 0px #0000003f;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: 500;
+  border: solid 3px transparent;
+  position: relative;
+  z-index: 1;
+}
+.contactbtn::before {
+  content: "";
+  position: absolute;
+  background-color: #B7206C;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.8s;
+}
+.contactbtn:hover::before {
+  transform: scaleX(1);
+}
+.contactbtn:hover {
+  border: solid 3px #FC0;
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #002600;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+label{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media screen and  (max-width: 550px) {
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 6px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  input[type=email] {
+      width: 100%;
+      padding: 6px;
+    
+    }
+    .ch1{
+      font-size: 3.5rem;
+    }
+  
+}
