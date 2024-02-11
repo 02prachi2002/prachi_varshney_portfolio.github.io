@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/prachi_varshney_portfolio.github.io/static/css/main.6a9ff993.css",
+    "main.js": "/prachi_varshney_portfolio.github.io/static/js/main.88315e65.js",
+    "static/media/techstackbg.png": "/prachi_varshney_portfolio.github.io/static/media/techstackbg.0a521b9451f07c1ae484.png",
+    "static/media/skillsbg.png": "/prachi_varshney_portfolio.github.io/static/media/skillsbg.ee7bb181e46691029724.png",
+    "static/media/mepic.png": "/prachi_varshney_portfolio.github.io/static/media/mepic.9e426a17eadf1404f4c7.png",
+    "static/media/home_intro_image.png": "/prachi_varshney_portfolio.github.io/static/media/home_intro_image.b50035f243a5f6e65f71.png",
+    "static/media/aboutbg.png": "/prachi_varshney_portfolio.github.io/static/media/aboutbg.afb9a7d07a68cb7e1778.png",
+    "static/media/PRACHI VARSHNEY.pdf": "/prachi_varshney_portfolio.github.io/static/media/PRACHI VARSHNEY.93762579cdf73a4e7536.pdf",
+    "static/media/Developer.png": "/prachi_varshney_portfolio.github.io/static/media/Developer.b0cac94918ee4520d948.png",
+    "static/media/python.png": "/prachi_varshney_portfolio.github.io/static/media/python.3b908abe7c13bc867f4e.png",
+    "static/media/redux.png": "/prachi_varshney_portfolio.github.io/static/media/redux.b4529436e189a3f02b82.png",
+    "static/media/Mongodb.png": "/prachi_varshney_portfolio.github.io/static/media/Mongodb.1848ac0d5b3a54990480.png",
+    "index.html": "/prachi_varshney_portfolio.github.io/index.html",
+    "main.6a9ff993.css.map": "/prachi_varshney_portfolio.github.io/static/css/main.6a9ff993.css.map",
+    "main.88315e65.js.map": "/prachi_varshney_portfolio.github.io/static/js/main.88315e65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a9ff993.css",
+    "static/js/main.88315e65.js"
+  ]
+}
