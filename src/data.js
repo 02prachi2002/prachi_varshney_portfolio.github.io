@@ -4,7 +4,7 @@ const data = [
 		id: 1,
 		name: "Crime Hotspot Mapping",
 		info: "This project addresses the limitations of current property listing apps by proposing a comprehensive method to assess and provide customers with detailed information on crime, safety, and other crucial factors around a property. The goal is to enhance homebuyers' decision-making and suggest safer and more suitable living options in a digitally transformed real estate industry.",
-		image: '/imagescards/Screenshot 2024-02-01 222356.png',
+		image: '../imagescards/Screenshot 2024-02-01 222356.png',
 		techstack:"Python, HTML, CSS3, JavaScript, Machine Learning Algorithms",
 		link:"https://github.com/02prachi2002/daa_project_crime_mapping"
 	},
